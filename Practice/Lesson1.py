@@ -13,10 +13,3 @@
 # print("Hello, " + name)
 
 
-age = 15
-weight = "5.2"
-name = " 15"
-
-print(weight + name)
-
-
