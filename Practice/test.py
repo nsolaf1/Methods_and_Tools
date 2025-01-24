@@ -1,38 +1,23 @@
-# Class Task: Simple Calculator
 
-# Objective:
-# Create a Python program that acts as a simple calculator.
+print("1. +")
+print("2. -")
+print("3. *")
+print("4. /")
+print("5. % ")
 
-# Requirements:
 
-# The program should ask the user to input two numbers.
+oper = input("Operator: ")
 
-# Provide a menu for operations: addition, subtraction, multiplication, and division.
+num1 = int(input("Number 1: "))
+num2 = int(input("Number 2: "))
 
-# Perform the selected operation and display the result.
-
-# name = """asdasd""" 
-# weight = 150
-
-# age = 15  #Global variable
-# print(age)
-
-# def person():
-#     calc = 10 #Local variable
-#     print(calc)
-
-# person()
-
-sum1 = 3.14
-
-def calc(num1, num2):
-    # print(num1 + num2)
-    # sum += (num1 + num2)
-    print(sum); 
-
-# print(sum1)
-
-calc(10,2)
+if oper == '1':
+    print(num1 + num2)
+elif oper == '2':
+    print(num1 - num2)
+elif oper == '5':
+    sum = (num1 * num2) / 100
+    print(sum)
 
 
 
