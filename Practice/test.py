@@ -11,10 +11,38 @@
 
 # Perform the selected operation and display the result.
 
-print("Select operation:")
-print("1. +")
-print("2. -")
-print("3. *")
-print("4. /")
+# name = """asdasd""" 
+# weight = 150
 
-choice = input("Enter choice (1/2/3/4): ")
+# age = 15  #Global variable
+# print(age)
+
+# def person():
+#     calc = 10 #Local variable
+#     print(calc)
+
+# person()
+
+sum1 = 3.14
+
+def calc(num1, num2):
+    # print(num1 + num2)
+    # sum += (num1 + num2)
+    print(sum); 
+
+# print(sum1)
+
+calc(10,2)
+
+
+
+
+
+
+
+
+
+
+
+
+
